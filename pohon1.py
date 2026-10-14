@@ -62,13 +62,6 @@ def ubah_nama(nim, nama):
 
     return " ".join(nama_parts)
 
-# Contoh Penggunaan
-nim_mahasiswa = "23422060"
-nama_mahasiswa = "Daniel Achmad Farizki"
-nama_baru = ubah_nama(nim_mahasiswa, nama_mahasiswa)
-
-print("Nama asli:", nama_mahasiswa)
-print("Nama setelah diubah:", nama_baru)
 
 # Tampilkan Relasi Keluarga
 tampilkan_relasi()
